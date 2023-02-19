@@ -1,7 +1,6 @@
 #include <stdio.h>
-/**
- *
- * main - to print alphabet in lowercase
+/*
+ * main - to print alphabet in lowercase, followed by a new line
  *
  * Return: 0
 */
@@ -16,5 +15,6 @@ int main(void)
 		putchar(alphabet[i]);
 		i++;
 	}
+	putchar('\n');
 	return (0);
 }
