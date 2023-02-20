@@ -7,12 +7,11 @@
 
 int main(void)
 {
-	char numbers[] = "0123456789";
 	int i = 0;
 
 	while (i < 10)
 	{
-		putchar(numbers[i]);
+		putchar(i + '0');
 		i++;
 	}
 	putchar('\n');
