@@ -13,7 +13,7 @@ int main(void)
 	while (i < 16)
 	{
 		putchar(alpha[i]);
-		i++
+		i++;
 	}
 	putchar('\n');
 	return (0);
