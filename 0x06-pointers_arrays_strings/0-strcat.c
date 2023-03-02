@@ -1,11 +1,11 @@
-#include "main"
+#include "main.h"
 /**
- * _strcat - to concatenate two srtings
- * @dest: to find the value of memeory address of dest
- * @src: to find the value of memory address of the src
- * Return: a pointer to the rsulting string dest
-*/
-
+ * _strcat - concatenates two strings
+ * @dest: input value
+ * @src: input value
+ *
+ * Return: void
+ */
 char *_strcat(char *dest, char *src)
 {
 	int i;
